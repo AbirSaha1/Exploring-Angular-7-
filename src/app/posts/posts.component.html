@@ -1,0 +1,9 @@
+<h1>Posts</h1>
+
+<ul>
+  <li *ngFor="let post of posts">
+    <h4> {{ post.title }}</h4>
+    <span> {{ post.body }}</span><br>
+    <span style="font-size:10%%" >{{ post.userId }}</span>
+  </li>
+</ul>
